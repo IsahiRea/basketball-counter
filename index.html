@@ -3,28 +3,34 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div class="container border">
+        <div class="container">
 
-            <div class="side border">
-
+            <div class="side">
+             
                 <h3>HOME</h3>
-                <p class="score border">0</p>
+                <div class="score-container">
+                    <p class="score" id="home-score">0</p>
+                </div> 
                 <div class="btn-container">
-                    <button class="score-btn">+1</button>
-                    <button class="score-btn">+2</button>
-                    <button class="score-btn">+3</button>
+                    <button class="score-btn" onclick="addOneHome()">+1</button>
+                    <button class="score-btn" onclick="addTwoHome()">+2</button>
+                    <button class="score-btn" onclick="addThreeHome()">+3</button>
                 </div>
 
             </div>
 
-            <div class="side border">
+            <div id="split"></div>
 
+            <div class="side">
+                
                 <h3>GUEST</h3>
-                <p class="score border">0</p>
+                <div class="score-container">
+                    <p class="score" id="guest-score">0</p>
+                </div>
                 <div class="btn-container">
-                    <button class="score-btn">+1</button>
-                    <button class="score-btn">+2</button>
-                    <button class="score-btn">+3</button>
+                    <button class="score-btn" onclick="addOneGuest()">+1</button>
+                    <button class="score-btn" onclick="addTwoGuest()">+2</button>
+                    <button class="score-btn" onclick="addThreeGuest()">+3</button>
                 </div>
 
             </div>
