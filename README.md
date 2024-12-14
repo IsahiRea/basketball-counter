@@ -1,6 +1,6 @@
-# Password Generator
+# Basketball Score Counter
 
-This repository contains a simple password generator built using HTML and CSS. It is designed to generate random, secure passwords for various use cases. The project serves as an opportunity to practice and enhance my skills in HTML and CSS.
+This repository contains a simple basketball score counter application built using HTML and CSS. The app allows users to easily track and update the scores of two teams during a basketball game. It’s a straightforward project designed to improve my understanding of web development fundamentals.
 
 ## Getting Started
 
@@ -10,8 +10,8 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system. This
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/IsahiRea/password-generator
-   cd password-generator
+   git clone https://github.com/IsahiRea/basketball-counter
+   cd basketball-counter
    ```
 
 2. Install the dependencies:
@@ -25,7 +25,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system. This
    ```
 
 ### Usage
-Once the development server is running, open your browser and navigate to the provided localhost URL (e.g., `http://localhost:3000`) to access the password generator.
+Once the development server is running, open your browser and navigate to the provided localhost URL (e.g., `http://localhost:3000`) to access the basketball counter.
 
 ## Learn More
 For additional information on configuring Vite, visit [Vite Documentation](https://vitejs.dev/).
